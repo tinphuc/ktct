@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.5/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.5/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"hàng hoá thị trường vai trò của<br>các chủ thể tham gia thị trường","children":[{"content":"Lý luận của c.mac <br> sản xuất hàng hoá <br>, hàng hoá","children":[{"content":"1. Sản xuất hàng hoá<br>\n<em><strong>khái niệm</strong></em> những người sản xuất <br> ra sản phẩm nhằm mục đính trao đổi và <br>mua bán","children":[{"content":"***điều kiện ra đời của <br> sản xuất hàng hoá","children":[{"content":"<em><strong>Phân công lao động</strong></em> là sự phân chia lao động <br>thành các ngành các lĩnh vực sản xuất khác nhau tạo ra sự chuyên<br> môn hoá của những người những nghành nghề khác nhau","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"<em><strong>Sự tách biệt về mặt kinh <br> tế giữa các chủ thể sản xuất</strong></em> <br> Làm cho người sản xuất độc lập <br> và có sự tách biệt về mặt lợi ích .<br>Trong điều kiện đó người này muốn <br> tiêu dùng sản phẩm của người khác phải<br>thông qua trao đổi và mua bán","children":[],"payload":{"tag":"li","lines":"6,7"}}],"payload":{"tag":"li","lines":"4,7"}}],"payload":{"tag":"li","lines":"2,7","listIndex":1}},{"content":"2. <em><strong>Hàng hoá</strong></em><br>\nlà sản phẩm của lao động thoả mãn nhu cầu<br>nào đó của con người thông qua trao đổi và mua bán","children":[{"content":"<em><strong>Giá trị sử dụng của hàng hoá</strong></em> Là công dụng của sản phẩm <br> thoả mãn nhu cầu nào đó của con người<br>\n-giá trị sử dụng chỉ được thực hiện trong<br> việc sử dụng hay tiêu dùng<br>\n-giá trị sử dụng của hàng hoá là đáp ứng<br> nhu cầu của người mua<br>\n-do thuộc tính tự nhiên quyết định==&gt;phạm trù <br> vĩnh viễn.KHCN phát triển==&gt; giá trị sd ngày càng phong phú","children":[],"payload":{"tag":"li","lines":"9,13"}},{"content":"<em><strong>Giá trị hàng hoá</strong></em> Tỉ lệ trao đổi giữa các giá trị <br>sử dụng khác nhau được gọi là giá trị trao đổi<br>\n-giá trị lao động xã hội của người sản xuất hàng <br> hoá kết tinh trong hàng hoá<br>\n-ọi hàng hoá đều là kết tinh của lao động<br>\n-giá trị biểu hiện mối QHSX giữa người bán-mua <br>giá trị phạm trù lịch sử","children":[],"payload":{"tag":"li","lines":"13,17"}},{"content":"<em><strong>lượng giá trị và các nt ảnh hưởng<br>đến lượng giá trị của hàng hoá</strong></em>","children":[{"content":"<em><strong>nhân tố 1</strong></em> Năng suất lao động","children":[{"content":"KN Năng lực sản xuất của người lao động","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"CT Số lượng sản phẩm sản xuất ra trong một đơn vị<br>thời gian hay số lượng thời gian hao<br>phí để sản xuất ra một đơn vị sản phẩm","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Sự ảnh hưởng :<br> Năng suất lao động tăng sẽ giảm lượng thời <br> gian hao phí lao động cần thiết trong một đơn <br> vị hàng hoá","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Khái quát:<br>Năng suất lao động tỉ lệ nghịch với lượng <br> giá trị của 1 đơn vị hàng hoá","children":[],"payload":{"tag":"li","lines":"22,23"}}],"payload":{"tag":"li","lines":"18,23"}},{"content":"<em><strong>nhân tố 2</strong></em> Cường độ lao động","children":[{"content":"KN: Cường độ lao động khẩn trương<br>tích cực của hoạt động lao động trong <br> sản xuất","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"CĐLĐ tăng =&gt; SLSP tăng , tổng hao phí <br> lao động tăng làm cho tổng gt tăng<br> nhưng GT/1sp không đổi","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"Cường độ lao động phụ thuộc vào <br> sk,thể chất,tâm lý,trình độ thành thạo, <br>tổ chức sản xuất kỉ luật lao động","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"li","lines":"23,27"}}],"payload":{"tag":"li","lines":"17,27"}}],"payload":{"tag":"li","lines":"7,27","listIndex":2}}],"payload":{"tag":"h2","lines":"1,2"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>
